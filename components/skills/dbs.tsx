@@ -19,7 +19,7 @@ const databases: Database[] = [
 // Main dbs constant
 export const dbs = (
   <div className="flex flex-col gap-6 m-0">
-    <h3 className="px-4 py-2 text-lg font-instru text-slate-900 flex items-center gap-2">
+    <h3 className="px-4 py-2 text-lg font-lora font-semibold text-slate-900 flex items-center gap-2">
       <span role="img" aria-label="database">💾</span>  Databases
     </h3>
     {databases.map((db) => (

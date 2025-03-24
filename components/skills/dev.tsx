@@ -20,7 +20,7 @@ const devTools: DevTool[] = [
 const Devs = (
   <div className="flex flex-col gap-6">
      
-    <h3 className="px-4 py-2 text-lg font-instru text-slate-900 flex items-center gap-2">
+    <h3 className="px-4 py-2 text-lg font-lora font-semibold text-slate-900 flex items-center gap-2">
       <span role="img" aria-label="computer">⚡</span> Development & Frameworks</h3>
     {devTools.map((tool) => (
       <div

@@ -15,7 +15,7 @@ export default function NavBar() {
     ];
     
     return (
-        <div className="ml-2 mt-4 w-[22vw] gap-2 md:gap-0 p-3 font-semibold font-instru text-xl">
+        <div className="ml-2 mt-4 w-[22vw] gap-2 md:gap-0 p-3 font-semibold font-lora text-xl">
             {navs.map((n,i)=>(
             <div className="flex items-center md:justify-start justify-center mb-2 " key={i}>
             <div className={`w-5 h-5 hidden md:flex border-2 border-black rounded-full flex items-center justify-center m-1 font-montserrat text-xs ${n.color}`}>{++i}</div>
